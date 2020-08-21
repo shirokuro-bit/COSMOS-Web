@@ -1,0 +1,43 @@
+#wrapper {
+    width: 980px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "side main"
+    "footer footer";
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;
+}
+#header {
+    grid-area: header;
+    height:150px;
+    background-color:#009b9f;
+}
+#main {
+    grid-area: main;
+    width:720px;
+    min-height:500px;
+    height:auto;
+    background-color: #009b9f;
+}
+#side {
+    grid-area: side;
+    width:250px;
+    min-height:500px;
+    height:auto;
+    background-color:#009b9f;
+}
+#footer {
+    grid-area: footer;
+    width:980px;
+    height:100px;
+    background-color:#009b9f;
+}
+
+/*
+グリッドレイアウト参考サイト
+https://kredo.jp/media/css-layout/
+レスポンシブデザイン
+https://www.webcreatorbox.com/tech/css-grid-basic-layout
+*/

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ff2697d4-9908-46b3-a6d2-4463b3352615" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="ae861477-9031-4bbe-9493-9957346eb648" name="localhost" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="php_installation_&lt;7.4.9&gt;" />
+  <component name="ProjectId" id="1gKAy3T7Thd4Z76cv8cgKt0Vi2P" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Program Files/PHP/php-7.4.9/php.exe" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff2697d4-9908-46b3-a6d2-4463b3352615" name="Default Changelist" comment="" />
+      <created>1597853161914</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597853161914</updated>
+      <workItem from="1597853162972" duration="2375000" />
+      <workItem from="1597855603953" duration="658000" />
+      <workItem from="1597939033810" duration="8054000" />
+      <workItem from="1598031369412" duration="5750000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="901" y="201" key="#CLI_Interpreters" timestamp="1598035206192">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="901" y="201" key="#CLI_Interpreters/0.0.1920.1040@0.0.1920.1040" timestamp="1598035206192" />
+    <state x="1123" y="389" key="FileChooserDialogImpl" timestamp="1597854432182">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1123" y="389" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597854432182" />
+    <state x="590" y="472" key="NewPhpFileDialog" timestamp="1598031916934">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="590" y="472" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598031916934" />
+    <state x="705" y="211" key="SettingsEditor" timestamp="1598035337131">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="705" y="211" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598035337131" />
+  </component>
+</project>
