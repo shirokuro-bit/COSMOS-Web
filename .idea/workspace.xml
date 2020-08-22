@@ -3,8 +3,29 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff2697d4-9908-46b3-a6d2-4463b3352615" name="Default Changelist" comment="" />
+    <list default="true" id="ff2697d4-9908-46b3-a6d2-4463b3352615" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConnectDB.php" beforeDir="false" afterPath="$PROJECT_DIR$/ConnectDB.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +42,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
@@ -34,11 +58,13 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="php_installation_&lt;7.4.9&gt;" />
   <component name="ProjectId" id="1gKAy3T7Thd4Z76cv8cgKt0Vi2P" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -51,7 +77,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
+    <property name="settings.editor.selected.configurable" value="SQL Dialects" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -64,29 +90,91 @@
       <workItem from="1597853162972" duration="2375000" />
       <workItem from="1597855603953" duration="658000" />
       <workItem from="1597939033810" duration="8054000" />
-      <workItem from="1598031369412" duration="5750000" />
+      <workItem from="1598031369412" duration="7082000" />
+      <workItem from="1598078949288" duration="2457000" />
+      <workItem from="1598110539730" duration="6797000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="901" y="201" key="#CLI_Interpreters" timestamp="1598035206192">
+    <state x="901" y="201" key="#CLI_Interpreters" timestamp="1598114043955">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="901" y="201" key="#CLI_Interpreters/0.0.1920.1040@0.0.1920.1040" timestamp="1598035206192" />
+    <state x="901" y="201" key="#CLI_Interpreters/0.0.1920.1040@0.0.1920.1040" timestamp="1598114043955" />
+    <state x="829" y="342" key="#Notifications" timestamp="1598079743070">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="829" y="342" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1598079743070" />
+    <state x="481" y="359" key="#SQL_Dialects" timestamp="1598113167087">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="481" y="359" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1598113167087" />
+    <state x="665" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598113570336">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="665" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598113570336" />
+    <state x="191" y="169" width="1200" height="800" key="DiffContextDialog" timestamp="1598038739039">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="191" y="169" width="1200" height="800" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598038739039" />
     <state x="1123" y="389" key="FileChooserDialogImpl" timestamp="1597854432182">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1123" y="389" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597854432182" />
+    <state x="659" y="467" key="Github.ShareDialog" timestamp="1598037795308">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="659" y="467" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598037795308" />
+    <state x="550" y="274" key="Github.UntrackedFilesDialog" timestamp="1598037812458">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="550" y="274" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598037812458" />
+    <state width="917" height="266" key="GridCell.Tab.0.bottom" timestamp="1598116808801">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="917" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598116808801" />
+    <state width="917" height="266" key="GridCell.Tab.0.center" timestamp="1598116808801">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="917" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598116808801" />
+    <state width="917" height="266" key="GridCell.Tab.0.left" timestamp="1598116808800">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="917" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598116808800" />
+    <state width="917" height="266" key="GridCell.Tab.0.right" timestamp="1598116808801">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="917" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598116808801" />
+    <state width="198" height="457" key="HiddenNamespacesPopup" timestamp="1598113622541">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="198" height="457" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1598113622541" />
     <state x="590" y="472" key="NewPhpFileDialog" timestamp="1598031916934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="590" y="472" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598031916934" />
-    <state x="705" y="211" key="SettingsEditor" timestamp="1598035337131">
+    <state x="78" y="179" key="SettingsEditor" timestamp="1598116407145">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="705" y="211" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598035337131" />
+    <state x="78" y="179" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598116407145" />
+    <state x="661" y="467" key="com.intellij.database.run.ParametersPanel.Standalone" timestamp="1598115660901">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="661" y="467" key="com.intellij.database.run.ParametersPanel.Standalone/0.0.1920.1040@0.0.1920.1040" timestamp="1598115660901" />
   </component>
 </project>
