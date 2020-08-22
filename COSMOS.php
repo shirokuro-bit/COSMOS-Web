@@ -15,9 +15,7 @@
         <?php include ('./side.php'); ?>
         <div id="main">
             <p>test</p>
-            <p>日本語</p>
-            <p>English</p>
-            <p><?php include ('./ConnectDB.php'); ?></p>
+            <?php include ('./ConnectDB.php'); ?>
         </div>
         <div id="footer">
             <p>test End</p>
@@ -25,3 +23,5 @@
     </div>
 </body>
 </html>
+<!--PHPをコマンドラインで実行して簡易ウェブサーバーを立ち上げる
+https://xn--web-oi9du9bc8tgu2a.com/php-web-server/-->

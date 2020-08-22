@@ -1,0 +1,20 @@
+GRANT ALL PRIVILEGES ON *.* TO 'COSMOS'@'192.168.11.7'  IDENTIFIED BY 'PASSWORD';
+
+CREATE DATABASE room_management;
+
+CREATE TABLE username (
+rfid_id int,
+name varchar(10),
+PRIMARY KEY(rfid_id)
+);
+
+CREATE TABLE zaishitu(
+time DATETIME,
+rfid_id int,
+zaishitu boolean,
+PRIMARY KEY (time,rfid_id),
+FOREIGN KEY(rfid_id)
+REFERENCES username(rfid_id));
+
+INSERT INTO username VALUES(901, '高野裕太郎');
+INSERT INTO zaishitu VALUES('2002-09-30 00:00:00', 901, false);

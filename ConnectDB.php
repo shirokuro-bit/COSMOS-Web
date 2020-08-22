@@ -26,9 +26,9 @@ $stmt = $dbh->query($sql);
 
 // foreach文で配列の中身を一行ずつ出力
 foreach ($stmt as $row) {
-    echo $row['time'].'：'.$row['name'].'：'.$row['zaishitu'];
-    echo '<br>';
+    echo '<p>'.$row['time'].'：'.$row['name'].'：'.$row['zaishitu'].'</p>';
 }
+echo '<br>';
 ?>
 <!--
 PHPでMySQLに接続する（PDO）
