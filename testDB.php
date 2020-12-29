@@ -36,22 +36,36 @@ try {
     header('Content-type: application/json');
     echo json_encode($userData);
 
+    /*
+    // foreach文で配列の中身を一行ずつ出力
+    foreach ($stmt as $row) {
+        echo '<p>'.$row['time'].'：'.$row['name'].'：'.$row['zaishitu'].'</p>';
+    }
+    echo '<br>';*/
+
+    /*$i = 0;
+    echo '<ul>';
+    while ($row = $stmt->fetch(PDO::FETCH_ASSOC, PDO::FETCH_ORI_NEXT )) {
+        echo '      <li id="'.$i.'">'."\n"; //データベースのidをliに
+        echo '         <p id="1" class="box">'.$row['time'].'</p>'."\n";
+        echo '         <p id="2" class="box">'.$row['name'].'</p>'."\n";
+        echo '         <p id="3" class="box">'.$row['zaishitu'].'</p>'."\n";
+        echo '      </li>'."\n";
+        $i++;
+        $userData[] = array(
+            'time' => $row['time'],
+            'name' => $row['name'],
+            'zaishitu' => $row['zaishitu']
+        );
+    }
+    echo '</ul>';*/
+
 } catch (PDOException $e) {
 
     // エラーメッセージを表示させる
-    echo 'データベースにアクセスできません！' . $e->getMessage();
+    echo 'データベースへ接続出来ないかエラーです';
 
     // 強制終了
     return;
 }
 
-/*
-PHPでMySQLに接続する（PDO）
-http://www.flatflag.nir87.com/pdo_construct-912
-PHPとMySQLのSELECT文でデータ取得(PDO)
-https://www.flatflag.nir87.com/select-932
-exit&return
-https://teratail.com/questions/4586
-［could not find driver］対処方法
-https://blog.janjan.net/2018/10/31/php-pdo-connect-mysql8-could-not-find-driver/
-*/

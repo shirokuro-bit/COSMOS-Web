@@ -5,22 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>COSMOS</title>
     <link rel="stylesheet" href="./css/style.css">
+    <!--<style type="text/css">
+    ul {
+    display: table;
+    border: 1px solid #CCC;
+    border-collapse: collapse;
+    margin-top: 15px;
+    margin-left: 50px;
+    }
+    ul li {
+    display: table-row;
+    list-style-type: none;
+    }
+    ul li p {
+    display: table-cell;
+    border: 1px solid #CCC;
+    padding: 10px;
+    }
+    </style>-->
 </head>
 <body>
-    <div id="wrapper">
-        <div id="header">
-            <h1>COSMOS在室管理システム</h1>
-            <p>test start</p>
-        </div>
-        <?php include ('./side.php'); ?>
-        <div id="main">
-            <p>test</p>
-            <?php include ('./ConnectDB.php'); ?>
-        </div>
-        <div id="footer">
-            <p>test End</p>
-        </div>
+<div id="wrapper">
+    <!--ローディング画面-->
+    <div id="loading">
+        <div id="spinner"></div>
     </div>
+
+    <!--コンテンツ部分-->
+    <div id="header">
+        <h1>COSMOS在室管理システム</h1>
+        <p>test start</p>
+    </div>
+    <div id="side">
+        <?php include ('./side.php'); ?>
+    </div>
+    <div id="main">
+        <p id="content"></p>
+    </div>
+
+    <div id="footer">
+        <p>test End</p>
+    </div>
+</div>
+<!--<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>-->
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script type="text/javascript" src="./js/loading.js"></script>
+<script type="text/javascript" src="./js/Ajax.js"></script>
 </body>
 </html>
 <!--PHPをコマンドラインで実行して簡易ウェブサーバーを立ち上げる
