@@ -4,9 +4,8 @@ $(document).ready(function() {
         $.ajax({
             type: "POST",
             url: "./ConnectDB.php",
-            //url: "./testDB.php",
             dataType: "json",
-            success: function (data, dataType) {
+            success: function (data) {
                 // successのブロック内は、Ajax通信が成功した場合に呼び出される
 
                 // 結果が0件の場合

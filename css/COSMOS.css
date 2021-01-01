@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+}
+
+#wrapper {
+    /*width: 100%;*/
+    margin: 0 auto;
+    /*display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;*/
+}
+/* ローディング画面 */
+#loading {
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+    background-color: #0bd;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+#spinner {
+    width: 100px;
+    height: 100px;
+    margin: 200px auto;
+    background-color: #fff;
+    border-radius: 100%;
+    animation: sk-scaleout 1.0s infinite ease-in-out;
+}
+#loaded {
+    opacity: 0;
+    visibility: hidden;
+}
+/* ローディングアニメーション */
+@keyframes sk-scaleout {
+    0% {
+        transform: scale(0);
+    } 100% {
+          transform: scale(1.0);
+          opacity: 0;
+      }
+}
+/* コンテンツ部分の装飾 */
+#header {
+    height:150px;
+    background-color:#009b9f;
+}
+#main {
+    float: right;
+    margin-top: 1px;
+    width:100%;
+    min-height:500px;
+    height:auto;
+    background-color: #009b9f;
+}
+#side {
+    float: left;
+    margin-top: 10px;
+    width:30%;
+    min-height:500px;
+    height:auto;
+    background-color:#009b9f;
+}
+#footer {
+    clear: both;
+    border-top: 1px solid #ccc;
+    /*width:980px;*/
+    height:100px;
+    background-color:#009b9f;
+}
+
+/*
+グリッドレイアウト参考サイト
+https://kredo.jp/media/css-layout/
+レスポンシブデザイン
+https://www.webcreatorbox.com/tech/css-grid-basic-layout
+*/

@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 #wrapper {
     /*width: 100%;*/
     margin: 0 auto;
@@ -39,8 +43,14 @@
 }
 /* コンテンツ部分の装飾 */
 #header {
-    height:150px;
-    background-color:#009b9f;
+    height:64px;
+    /*background-color:#009b9f;*/
+}
+#margin {
+    height: 15px;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
 }
 #main {
     float: right;
@@ -48,22 +58,54 @@
     width:70%;
     min-height:500px;
     height:auto;
-    background-color: #009b9f;
+    /*background-color: #009b9f;*/
 }
 #side {
     float: left;
     margin-top: 10px;
     width:30%;
-    min-height:500px;
+    max-width:280px;
     height:auto;
-    background-color:#009b9f;
+    min-height:500px;
+    /*background-color:#009b9f;*/
+    color: rgba(0,0,0,0.87);
 }
-#footer {
-    clear: both;
-    border-top: 1px solid #ccc;
-    /*width:980px;*/
-    height:100px;
-    background-color:#009b9f;
+#title {
+    font-family: 'Product Sans',Arial,sans-serif;
+    font-size: 22px;
+    color: #5f6368;
+}
+#button01, #button02, #button03{
+    /*background: #e8f0fe;*/
+    display: block;
+    width: 280px;
+    height: 44px;
+    border-radius: 0 50px 50px 0;
+}
+#button01:hover, #button02:hover, #button03:hover{
+    background-color: rgba(0,0,0,0.05);
+}
+#separate {
+    display: block;
+    border-top: 1px solid #dadce0;
+    box-sizing: border-box;
+    height: 8px;
+    margin-top: 8px;
+}
+li {
+    list-style: none;
+}
+ul {
+    padding: 0;
+}
+#sample01 {
+    display: table;
+}
+#sample01 > ul {
+    display: table-row;
+}
+#sample01 > ul > li {
+    display: table-cell;
 }
 
 /*

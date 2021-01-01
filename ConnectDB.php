@@ -1,11 +1,4 @@
 <?php
-if (
-    !(isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) === 'xmlhttprequest')
-    && (!empty($_SERVER['SCRIPT_FILENAME']) && 'COSMOS.php' === basename($_SERVER['SCRIPT_FILENAME']))
-)
-{
-    die ('このページは直接ロードしないでください。');
-}
 $dsn        = 'mysql:host=localhost:3306;dbname=room_management;charset=utf8';
 $user       = 'COSMOS';
 $password   = 'PASSWORD';
