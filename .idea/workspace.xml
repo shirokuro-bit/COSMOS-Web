@@ -29,18 +29,19 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff2697d4-9908-46b3-a6d2-4463b3352615" name="Default Changelist" comment="COSMOS.php    - 削除：サイドメニュー&#10;Console.php   - 追加：コンソールページ&#10;ConnectDB.php - 削除：アクセス制限(うまく動作しない為)&#10;Sing-Up.php   - 追加：新規登録用ページ(Ajax用)&#10;User.php      - 追加：ユーザー一覧確認ページ(Ajax用)&#10;&#10;Console.js      - 追加：Console.php用のAjaxプログラム&#10;LoadSQL-Ajax.js - 変更：ファイル名 from Ajax.js&#10;&#10;Console.css - 追加：Console.php用のスタイルシート&#10;COSMOS.css  - 変更,追加：ファイル名 from style.css.各値変更,各値追加">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Console.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sing-Up.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/Console.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/Console.js" afterDir="false" />
+    <list default="true" id="ff2697d4-9908-46b3-a6d2-4463b3352615" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/COSMOS_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/COSMOS.php" beforeDir="false" afterPath="$PROJECT_DIR$/COSMOS.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConnectDB.php" beforeDir="false" afterPath="$PROJECT_DIR$/ConnectDB.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/COSMOS.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/Ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/LoadSQL-Ajax.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Console.php" beforeDir="false" afterPath="$PROJECT_DIR$/Console.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sing-Up.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sing-Up.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/COSMOS.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/COSMOS.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Console.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Console.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/Console.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Console.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/LoadSQL-Ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/LoadSQL-Ajax.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testDB.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +55,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -67,11 +68,10 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JsFlowSettings">
-    <service-enabled>true</service-enabled>
-    <exe-path />
-    <other-services-enabled>true</other-services-enabled>
-    <auto-save>true</auto-save>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
   </component>
   <component name="PhpServers">
     <servers>
@@ -90,18 +90,23 @@
     <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Program Files/PHP/php-7.4.9/php.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.stylelint" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="SQL Dialects" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -132,7 +137,8 @@
       <workItem from="1609256054361" duration="1779000" />
       <workItem from="1609311275336" duration="7423000" />
       <workItem from="1609344158262" duration="8277000" />
-      <workItem from="1609524559270" duration="7042000" />
+      <workItem from="1609524559270" duration="7402000" />
+      <workItem from="1609597821754" duration="19272000" />
     </task>
     <task id="LOCAL-00001" summary="MariaDBへの接続の実装">
       <created>1598122794611</created>
@@ -155,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609231835651</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="COSMOS.php    - 削除：サイドメニュー&#10;Console.php   - 追加：コンソールページ&#10;ConnectDB.php - 削除：アクセス制限(うまく動作しない為)&#10;Sing-Up.php   - 追加：新規登録用ページ(Ajax用)&#10;User.php      - 追加：ユーザー一覧確認ページ(Ajax用)&#10;&#10;Console.js      - 追加：Console.php用のAjaxプログラム&#10;LoadSQL-Ajax.js - 変更：ファイル名 from Ajax.js&#10;&#10;Console.css - 追加：Console.php用のスタイルシート&#10;COSMOS.css  - 変更,追加：ファイル名 from style.css.各値変更,各値追加">
+      <created>1609532227676</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609532227676</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,5 +204,14 @@
     <MESSAGE value="360度画像削除&#10;自動更新を導入&#10;在室状況を表示するためのselect文をviewに変更" />
     <MESSAGE value="COSMOS.php    - 削除：サイドメニュー&#10;Console.php   - 追加：コンソールページ&#10;ConnectDB.php - 削除：アクセス制限(うまく動作しない為)&#10;Sing-Up.php   - 追加：新規登録用ページ(Ajax用)&#10;User.php      - 追加：ユーザー一覧確認ページ(Ajax用)&#10;&#10;Console.js      - 追加：Console.php用のAjaxプログラム&#10;LoadSQL-Ajax.js - 変更：ファイル名 from Ajax.js&#10;&#10;Console.css - 追加：Console.php用のスタイルシート&#10;COSMOS.css  - 変更,追加：ファイル名 from style.css.各値変更,各値追加" />
     <option name="LAST_COMMIT_MESSAGE" value="COSMOS.php    - 削除：サイドメニュー&#10;Console.php   - 追加：コンソールページ&#10;ConnectDB.php - 削除：アクセス制限(うまく動作しない為)&#10;Sing-Up.php   - 追加：新規登録用ページ(Ajax用)&#10;User.php      - 追加：ユーザー一覧確認ページ(Ajax用)&#10;&#10;Console.js      - 追加：Console.php用のAjaxプログラム&#10;LoadSQL-Ajax.js - 変更：ファイル名 from Ajax.js&#10;&#10;Console.css - 追加：Console.php用のスタイルシート&#10;COSMOS.css  - 変更,追加：ファイル名 from style.css.各値変更,各値追加" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="COSMOS Web" type="b2602c69:ProjectViewProjectNode" />
+        <item name="COSMOS Web" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
   </component>
 </project>

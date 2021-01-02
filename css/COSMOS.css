@@ -70,6 +70,17 @@ body {
     background-color:#009b9f;
 }
 
+#table {
+    display: table;
+}
+#table > ul {
+    display: table-row;
+}
+#table > ul > li {
+    list-style: none;
+    display: table-cell;
+}
+
 /*
 グリッドレイアウト参考サイト
 https://kredo.jp/media/css-layout/

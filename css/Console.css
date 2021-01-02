@@ -1,65 +1,33 @@
 body {
     margin: 0;
 }
+ul {
+    padding: 0;
+}
 
 #wrapper {
-    /*width: 100%;*/
-    margin: 0 auto;
-    /*display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-gap: 10px;*/
+    margin: 0;
 }
-/* ローディング画面 */
-#loading {
-    width: 100%;
-    height: 100%;
-    transition: all 1s;
-    background-color: #0bd;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 9999;
-}
-#spinner {
-    width: 100px;
-    height: 100px;
-    margin: 200px auto;
-    background-color: #fff;
-    border-radius: 100%;
-    animation: sk-scaleout 1.0s infinite ease-in-out;
-}
-#loaded {
-    opacity: 0;
-    visibility: hidden;
-}
-/* ローディングアニメーション */
-@keyframes sk-scaleout {
-    0% {
-        transform: scale(0);
-    } 100% {
-          transform: scale(1.0);
-          opacity: 0;
-      }
-}
-/* コンテンツ部分の装飾 */
+
 #header {
     height:64px;
-    /*background-color:#009b9f;*/
 }
+
 #margin {
     height: 15px;
     overflow: hidden;
     position: absolute;
     width: 100%;
 }
+
 #main {
     float: right;
     margin-top: 10px;
     width:70%;
     min-height:500px;
     height:auto;
-    /*background-color: #009b9f;*/
 }
+
 #side {
     float: left;
     margin-top: 10px;
@@ -67,14 +35,19 @@ body {
     max-width:280px;
     height:auto;
     min-height:500px;
-    /*background-color:#009b9f;*/
     color: rgba(0,0,0,0.87);
 }
+
+#side > ul > li {
+    list-style: none;
+}
+
 #title {
     font-family: 'Product Sans',Arial,sans-serif;
     font-size: 22px;
     color: #5f6368;
 }
+
 #button01, #button02, #button03{
     /*background: #e8f0fe;*/
     display: block;
@@ -82,9 +55,17 @@ body {
     height: 44px;
     border-radius: 0 50px 50px 0;
 }
+
 #button01:hover, #button02:hover, #button03:hover{
     background-color: rgba(0,0,0,0.05);
 }
+
+#button01:link,#button01:visited,#button01:active, #button02:link,#button02:visited,#button02:active, #button03:link,#button03:visited,#button03:active{
+    font-family: 'Google Sans',Roboto,Arial,sans-serif;
+    color: #5f6368;
+    text-decoration: none;
+}
+
 #separate {
     display: block;
     border-top: 1px solid #dadce0;
@@ -92,19 +73,15 @@ body {
     height: 8px;
     margin-top: 8px;
 }
-li {
-    list-style: none;
-}
-ul {
-    padding: 0;
-}
-#sample01 {
+
+#table {
     display: table;
 }
-#sample01 > ul {
+#table > ul {
     display: table-row;
 }
-#sample01 > ul > li {
+#table > ul > li {
+    list-style: none;
     display: table-cell;
 }
 

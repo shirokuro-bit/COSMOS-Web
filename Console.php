@@ -35,9 +35,7 @@
 
     </div>
     <div id="main">
-        <div id="sample01">
-            <noscript>JavaScriptを許可していない場合このページは正常に動作しません。</noscript>
-        </div>
+        <noscript>JavaScriptを許可していない場合このページは正常に動作しません。</noscript>
     </div>
 </div>
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
