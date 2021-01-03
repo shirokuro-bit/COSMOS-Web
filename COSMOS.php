@@ -30,8 +30,9 @@
 </div>
 <!--<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>-->
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-<script type="text/javascript" src="./js/loading.js"></script>
-<script type="text/javascript" src="./js/LoadSQL-Ajax.js"></script>
+<script type="text/javascript" src="js/loading.js"></script>
+<script type="text/javascript" src="js/Gethtml-Ajax.js"></script>
+<script type="text/javascript" src="js/COSMOS.js"></script>
 </body>
 </html>
 <!--PHPをコマンドラインで実行して簡易ウェブサーバーを立ち上げる

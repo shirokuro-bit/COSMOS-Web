@@ -29,19 +29,15 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff2697d4-9908-46b3-a6d2-4463b3352615" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/COSMOS_table.php" afterDir="false" />
+    <list default="true" id="ff2697d4-9908-46b3-a6d2-4463b3352615" name="Default Changelist" comment="0.6">
+      <change afterPath="$PROJECT_DIR$/js/COSMOS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/Gethtml-Ajax.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConnectDB.php" beforeDir="false" afterPath="$PROJECT_DIR$/ConnectDB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/COSMOS.php" beforeDir="false" afterPath="$PROJECT_DIR$/COSMOS.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Console.php" beforeDir="false" afterPath="$PROJECT_DIR$/Console.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sing-Up.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sing-Up.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/COSMOS.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/COSMOS.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Console.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Console.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/Console.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Console.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/LoadSQL-Ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/LoadSQL-Ajax.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testDB.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/LoadSQL-Ajax.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +134,8 @@
       <workItem from="1609311275336" duration="7423000" />
       <workItem from="1609344158262" duration="8277000" />
       <workItem from="1609524559270" duration="7402000" />
-      <workItem from="1609597821754" duration="19272000" />
+      <workItem from="1609597821754" duration="19363000" />
+      <workItem from="1609690156581" duration="5606000" />
     </task>
     <task id="LOCAL-00001" summary="MariaDBへの接続の実装">
       <created>1598122794611</created>
@@ -168,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609532227676</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="0.6">
+      <created>1609617312060</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609617312060</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +207,8 @@
     <MESSAGE value="html文微修正" />
     <MESSAGE value="360度画像削除&#10;自動更新を導入&#10;在室状況を表示するためのselect文をviewに変更" />
     <MESSAGE value="COSMOS.php    - 削除：サイドメニュー&#10;Console.php   - 追加：コンソールページ&#10;ConnectDB.php - 削除：アクセス制限(うまく動作しない為)&#10;Sing-Up.php   - 追加：新規登録用ページ(Ajax用)&#10;User.php      - 追加：ユーザー一覧確認ページ(Ajax用)&#10;&#10;Console.js      - 追加：Console.php用のAjaxプログラム&#10;LoadSQL-Ajax.js - 変更：ファイル名 from Ajax.js&#10;&#10;Console.css - 追加：Console.php用のスタイルシート&#10;COSMOS.css  - 変更,追加：ファイル名 from style.css.各値変更,各値追加" />
-    <option name="LAST_COMMIT_MESSAGE" value="COSMOS.php    - 削除：サイドメニュー&#10;Console.php   - 追加：コンソールページ&#10;ConnectDB.php - 削除：アクセス制限(うまく動作しない為)&#10;Sing-Up.php   - 追加：新規登録用ページ(Ajax用)&#10;User.php      - 追加：ユーザー一覧確認ページ(Ajax用)&#10;&#10;Console.js      - 追加：Console.php用のAjaxプログラム&#10;LoadSQL-Ajax.js - 変更：ファイル名 from Ajax.js&#10;&#10;Console.css - 追加：Console.php用のスタイルシート&#10;COSMOS.css  - 変更,追加：ファイル名 from style.css.各値変更,各値追加" />
+    <MESSAGE value="0.6" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.6" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>

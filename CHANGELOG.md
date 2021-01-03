@@ -1,5 +1,20 @@
 # Change Log
 
+##0.7
+###Added
+- Gethtmi-Ajax.js
+    - html取得用のAjax文をClass化
+
+###Changed
+- COSMOS.js
+    - ファイル名変更 from LoadSQL-Ajax.js
+- COSMOS.php, Console.php
+    - Gethtmi-Ajax.jsを読み込むように追記
+
+###Removed
+- Console.js, COSMOS.js
+    - Ajax文を削除
+
 ##0.6
 ###Added
 - CHANGELOG.md
@@ -19,14 +34,29 @@
 - testDB.php
 
 ##0.5
-COSMOS.php    - 削除：サイドメニュー  
-Console.php   - 追加：コンソールページ  
-ConnectDB.php - 削除：アクセス制限(うまく動作しない為)  
-Sing-Up.php   - 追加：新規登録用ページ(Ajax用)  
-User.php      - 追加：ユーザー一覧確認ページ(Ajax用)  
+ 
+COSMOS.css  - 追加：各値変更,各値追加
+###Added
+- Console.php
+    - コンソールページ
+- Sing-Up.php
+    - 新規登録用ページ(Ajax用)
+- User.php
+    - ユーザー一覧確認ページ(Ajax用)
+- Console.js
+    - Console.php用のAjaxプログラム
+- Console.css
+    - Console.php用のスタイルシート
 
-Console.js      - 追加：Console.php用のAjaxプログラム  
-LoadSQL-Ajax.js - 変更：ファイル名 from Ajax.js
+###Changed
+- LoadSQL-Ajax.js
+    - ファイル名変更 from Ajax.js
+- COSMOS.css
+    - ファイル名変更 from style.css
+    - 各種値
 
-Console.css - 追加：Console.php用のスタイルシート  
-COSMOS.css  - 変更,追加：ファイル名 from style.css.各値変更,各値追加
+###Removed
+- COSMOS.php
+    - サイドメニュー
+- ConnectDB.php
+    - アクセス制限(うまく動作しない為)
