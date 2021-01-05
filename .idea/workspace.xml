@@ -29,15 +29,27 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff2697d4-9908-46b3-a6d2-4463b3352615" name="Default Changelist" comment="0.6">
-      <change afterPath="$PROJECT_DIR$/js/COSMOS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/Gethtml-Ajax.js" afterDir="false" />
+    <list default="true" id="ff2697d4-9908-46b3-a6d2-4463b3352615" name="Default Changelist" comment="1.0">
+      <change afterPath="$PROJECT_DIR$/config/DB_config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/Console/Sing-Up-insert.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/Login/Console_Login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/Login/Login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/Login/css/Login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/Login/js/Login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/COSMOS.php" beforeDir="false" afterPath="$PROJECT_DIR$/COSMOS.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Console.php" beforeDir="false" afterPath="$PROJECT_DIR$/Console.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/Console.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Console.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/LoadSQL-Ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COSMOS.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/COSMOS.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/COSMOS_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/COSMOS_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConnectDB.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ConnectDB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Console.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/Console/Console.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL文.txt" beforeDir="false" afterPath="$PROJECT_DIR$/db/SQL.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sing-Up.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/Console/Sing-Up.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/Console/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/COSMOS.css" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/css/COSMOS.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Console.css" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/Console/css/Console.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/COSMOS.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/js/COSMOS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/Console.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/Console/js/Console.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/loading.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/js/loading.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/side.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/side.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,12 +63,25 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="360deg" />
@@ -107,8 +132,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\N_SATO\Documents\PhpStormProjects\COSMOS Web" />
-      <recent name="C:\Users\N_SATO\Documents\PhpStormProjects\COSMOS Web\js" />
+      <recent name="C:\Users\N_SATO\Documents\PhpStormProjects\COSMOS Web\htdocs\js" />
+      <recent name="C:\Users\N_SATO\Documents\PhpStormProjects\COSMOS Web\htdocs" />
+      <recent name="C:\Users\N_SATO\Documents\PhpStormProjects\COSMOS Web\htdocs\Console\css" />
+      <recent name="C:\Users\N_SATO\Documents\PhpStormProjects\COSMOS Web\htdocs\Console\js" />
+      <recent name="C:\Users\N_SATO\Documents\PhpStormProjects\COSMOS Web\htdocs\Console" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -189,7 +217,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>

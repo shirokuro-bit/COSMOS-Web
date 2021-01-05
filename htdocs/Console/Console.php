@@ -27,7 +27,7 @@
             </li>
             <li id="separate"></li>
             <li>
-                <a href="COSMOS.php" id="button03">
+                <a href="../COSMOS.php" id="button03">
                     <div id="03">COSMOS</div>
                 </a>
             </li>
@@ -39,7 +39,7 @@
     </div>
 </div>
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-<script type="text/javascript" src="js/Gethtml-Ajax.js"></script>
+<script type="text/javascript" src="../../js/Gethtml-Ajax.js"></script>
 <script type="text/javascript" src="js/Console.js"></script>
 </body>
 </html>

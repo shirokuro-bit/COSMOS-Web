@@ -1,5 +1,5 @@
 <?php
-require 'ConnectDB.php';
+require '../../lib/ConnectDB.php';
 $cls = new ConnectDB();
 
 $stmt = $cls->read("select * from username");

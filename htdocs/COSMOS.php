@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>COSMOS</title>
-    <link rel="stylesheet" href="./css/COSMOS.css">
+    <link rel="stylesheet" href="css/COSMOS.css">
 </head>
 <body>
 <div id="wrapper">
@@ -25,13 +25,14 @@
     </div>
 
     <div id="footer">
-        <p>test End</p>
+
+        <a href="Login/Console_Login.php"><p>Login</p></a>
     </div>
 </div>
 <!--<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>-->
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <script type="text/javascript" src="js/loading.js"></script>
-<script type="text/javascript" src="js/Gethtml-Ajax.js"></script>
+<script type="text/javascript" src="../js/Gethtml-Ajax.js"></script>
 <script type="text/javascript" src="js/COSMOS.js"></script>
 </body>
 </html>
