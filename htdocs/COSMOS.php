@@ -26,7 +26,7 @@
 
     <div id="footer">
 
-        <a href="Login/Console_Login.php"><p>Login</p></a>
+        <a href="Login/Console_Login.html"><p>Login</p></a>
     </div>
 </div>
 <!--<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>-->
