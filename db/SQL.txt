@@ -30,3 +30,9 @@ inner join(
     select name,rfid_id from username
 ) as T2
 on T1.rfid_id=T2.rfid_id
+
+CREATE VIEW html_output
+as
+select max(time) as time , name, zaishitu from zaishitu, username
+where zaishitu.rfid_id = username.rfid_id
+GROUP BY name;

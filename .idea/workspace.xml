@@ -30,26 +30,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff2697d4-9908-46b3-a6d2-4463b3352615" name="Default Changelist" comment="1.0">
-      <change afterPath="$PROJECT_DIR$/config/DB_config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htdocs/Console/Sing-Up-insert.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htdocs/Login/Console_Login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htdocs/Login/Login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htdocs/Login/css/Login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htdocs/Login/js/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/Console/Sing-Up-select.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/Console/Sing-Up.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs/Console/js/Sing-Up.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/COSMOS.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/COSMOS.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/COSMOS_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/COSMOS_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConnectDB.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ConnectDB.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Console.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/Console/Console.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL文.txt" beforeDir="false" afterPath="$PROJECT_DIR$/db/SQL.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sing-Up.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/Console/Sing-Up.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/Console/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/COSMOS.css" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/css/COSMOS.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Console.css" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/Console/css/Console.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/COSMOS.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/js/COSMOS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/Console.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/Console/js/Console.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/loading.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/js/loading.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/side.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/side.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/SQL.txt" beforeDir="false" afterPath="$PROJECT_DIR$/db/SQL.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/Console/Console.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/Console/Console.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/Console/Sing-Up-insert.php" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/Console/Sing-Up-update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/Console/Sing-Up.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/Console/js/Console.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/Console/js/Console.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/Login/js/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/Login/js/Login.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,6 +154,8 @@
       <workItem from="1609524559270" duration="7402000" />
       <workItem from="1609597821754" duration="19363000" />
       <workItem from="1609690156581" duration="5606000" />
+      <workItem from="1609948213711" duration="6861000" />
+      <workItem from="1610035287250" duration="2310000" />
     </task>
     <task id="LOCAL-00001" summary="MariaDBへの接続の実装">
       <created>1598122794611</created>
@@ -200,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609617312060</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1.0">
+      <created>1609879914812</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1609879914812</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +235,8 @@
     <MESSAGE value="360度画像削除&#10;自動更新を導入&#10;在室状況を表示するためのselect文をviewに変更" />
     <MESSAGE value="COSMOS.php    - 削除：サイドメニュー&#10;Console.php   - 追加：コンソールページ&#10;ConnectDB.php - 削除：アクセス制限(うまく動作しない為)&#10;Sing-Up.php   - 追加：新規登録用ページ(Ajax用)&#10;User.php      - 追加：ユーザー一覧確認ページ(Ajax用)&#10;&#10;Console.js      - 追加：Console.php用のAjaxプログラム&#10;LoadSQL-Ajax.js - 変更：ファイル名 from Ajax.js&#10;&#10;Console.css - 追加：Console.php用のスタイルシート&#10;COSMOS.css  - 変更,追加：ファイル名 from style.css.各値変更,各値追加" />
     <MESSAGE value="0.6" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.6" />
+    <MESSAGE value="1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>

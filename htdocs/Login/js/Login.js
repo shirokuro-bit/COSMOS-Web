@@ -9,7 +9,7 @@ $('#login').submit(function (event){
         dataType: 'text',
     }).done(function(data) {
         if (data === 'true') {
-            window.location.href = '../Console/Console.php';
+            window.location.href = '../Console/Console.html';
         }else if (data === 'false') {
             $('#miss').html('メールアドレス又はパスワードが間違っています。');
         }else {

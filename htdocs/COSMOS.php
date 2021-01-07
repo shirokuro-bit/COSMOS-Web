@@ -18,7 +18,7 @@
         <h1>COSMOS在室管理システム</h1>
     </div>
     <!--<div id="side">
-        <?php /*include ('./side.php'); */?>
+        <?php /*include('./side.html'); */?>
     </div>-->
     <div id="main">
         <p id="content"></p>
