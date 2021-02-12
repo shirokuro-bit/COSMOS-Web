@@ -29,17 +29,13 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff2697d4-9908-46b3-a6d2-4463b3352615" name="Default Changelist" comment="2.0.1">
-      <change afterPath="$PROJECT_DIR$/cms/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/COSMOS/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/COSMOS/settings.py" afterDir="false" />
+    <list default="true" id="ff2697d4-9908-46b3-a6d2-4463b3352615" name="Default Changelist" comment="2.1">
+      <change afterPath="$PROJECT_DIR$/cms/static/cms/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/static/cms/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/static/cms/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/static/cms/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/static/cms/js/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/static/cms/js/jquery-3.5.1.min.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +163,7 @@
       <workItem from="1609524559270" duration="7402000" />
       <workItem from="1609597821754" duration="19363000" />
       <workItem from="1609690156581" duration="5606000" />
-      <workItem from="1613157129346" duration="1288000" />
+      <workItem from="1613157129346" duration="1611000" />
     </task>
     <task id="LOCAL-00001" summary="MariaDBへの接続の実装">
       <created>1598122794611</created>
@@ -225,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613158169579</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2.1">
+      <created>1613158619373</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1613158619373</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +269,8 @@
     <MESSAGE value="2.0" />
     <MESSAGE value="2.0&#10;Python+Django版" />
     <MESSAGE value="2.0.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.0.1" />
+    <MESSAGE value="2.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
