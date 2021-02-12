@@ -29,7 +29,37 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff2697d4-9908-46b3-a6d2-4463b3352615" name="Default Changelist" comment="1.1" />
+    <list default="true" id="ff2697d4-9908-46b3-a6d2-4463b3352615" name="Default Changelist" comment="1.1">
+      <change afterPath="$PROJECT_DIR$/COSMOS/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/COSMOS/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/COSMOS/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/COSMOS/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/COSMOS/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/DB_config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/SQL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/COSMOS.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/COSMOS_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/Console/Console.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/Console/Sing-Up-select.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/Console/Sing-Up-update.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/Console/Sing-Up.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/Console/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/Console/css/Console.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/Console/js/Console.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/Console/js/Sing-Up.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/Login/Console_Login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/Login/Login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/Login/css/Login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/Login/js/Login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/css/COSMOS.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/js/COSMOS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/js/loading.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/side.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/Gethtml-Ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ConnectDB.php" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +93,7 @@
     </excluded-from-favorite>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="360deg" />
+        <entry key="$PROJECT_DIR$" value="PHP" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -99,6 +129,7 @@
     <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Program Files/PHP/php-7.4.9/php.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -152,6 +183,7 @@
       <workItem from="1609524559270" duration="7402000" />
       <workItem from="1609597821754" duration="19363000" />
       <workItem from="1609690156581" duration="5606000" />
+      <workItem from="1613157129346" duration="316000" />
     </task>
     <task id="LOCAL-00001" summary="MariaDBへの接続の実装">
       <created>1598122794611</created>
@@ -212,7 +244,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
