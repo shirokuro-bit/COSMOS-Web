@@ -29,36 +29,17 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff2697d4-9908-46b3-a6d2-4463b3352615" name="Default Changelist" comment="1.1">
-      <change afterPath="$PROJECT_DIR$/COSMOS/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/COSMOS/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/COSMOS/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/COSMOS/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/COSMOS/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/DB_config.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/SQL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/htdocs/COSMOS.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/htdocs/COSMOS_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/htdocs/Console/Console.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/htdocs/Console/Sing-Up-select.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/htdocs/Console/Sing-Up-update.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/htdocs/Console/Sing-Up.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/htdocs/Console/User.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/htdocs/Console/css/Console.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/htdocs/Console/js/Console.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/htdocs/Console/js/Sing-Up.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/htdocs/Login/Console_Login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/htdocs/Login/Login.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/htdocs/Login/css/Login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/htdocs/Login/js/Login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/htdocs/css/COSMOS.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/htdocs/js/COSMOS.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/htdocs/js/loading.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/htdocs/side.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/Gethtml-Ajax.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ConnectDB.php" beforeDir="false" />
+    <list default="true" id="ff2697d4-9908-46b3-a6d2-4463b3352615" name="Default Changelist" comment="2.0.1">
+      <change afterPath="$PROJECT_DIR$/cms/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/COSMOS/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/COSMOS/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,12 +100,15 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="php_installation_&lt;7.4.9&gt;" />
   <component name="ProjectId" id="1gKAy3T7Thd4Z76cv8cgKt0Vi2P" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -146,7 +130,7 @@
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Background" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -183,7 +167,7 @@
       <workItem from="1609524559270" duration="7402000" />
       <workItem from="1609597821754" duration="19363000" />
       <workItem from="1609690156581" duration="5606000" />
-      <workItem from="1613157129346" duration="316000" />
+      <workItem from="1613157129346" duration="1288000" />
     </task>
     <task id="LOCAL-00001" summary="MariaDBへの接続の実装">
       <created>1598122794611</created>
@@ -227,7 +211,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610041087849</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="2.0&#10;Python+Django版">
+      <created>1613157773711</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1613157773711</updated>
+    </task>
+    <task id="LOCAL-00008" summary="2.0.1">
+      <created>1613158169579</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1613158169579</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,13 +256,17 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="MariaDBへの接続の実装" />
     <MESSAGE value="html文微修正" />
     <MESSAGE value="360度画像削除&#10;自動更新を導入&#10;在室状況を表示するためのselect文をviewに変更" />
     <MESSAGE value="COSMOS.php    - 削除：サイドメニュー&#10;Console.php   - 追加：コンソールページ&#10;ConnectDB.php - 削除：アクセス制限(うまく動作しない為)&#10;Sing-Up.php   - 追加：新規登録用ページ(Ajax用)&#10;User.php      - 追加：ユーザー一覧確認ページ(Ajax用)&#10;&#10;Console.js      - 追加：Console.php用のAjaxプログラム&#10;LoadSQL-Ajax.js - 変更：ファイル名 from Ajax.js&#10;&#10;Console.css - 追加：Console.php用のスタイルシート&#10;COSMOS.css  - 変更,追加：ファイル名 from style.css.各値変更,各値追加" />
     <MESSAGE value="0.6" />
     <MESSAGE value="1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.1" />
+    <MESSAGE value="2.0" />
+    <MESSAGE value="2.0&#10;Python+Django版" />
+    <MESSAGE value="2.0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.0.1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
