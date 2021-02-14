@@ -29,10 +29,14 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff2697d4-9908-46b3-a6d2-4463b3352615" name="Default Changelist" comment="2.1.1">
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/COSMOS Web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/COSMOS Web.iml" afterDir="false" />
+    <list default="true" id="ff2697d4-9908-46b3-a6d2-4463b3352615" name="Default Changelist" comment="vemv + .gitignore">
+      <change afterPath="$PROJECT_DIR$/cms/static/cms/css/COSMOS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/templates/main/COSMOS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/templates/main/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/COSMOS/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/COSMOS/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cms/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,14 +135,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\shiro\JetBrains\PycharmProjects\COSMOS-Web\cms\static\cms\js" />
       <recent name="C:\Users\shiro\JetBrains\PycharmProjects\COSMOS-Web\cms\static\cms\css" />
+      <recent name="C:\Users\shiro\JetBrains\PycharmProjects\COSMOS-Web\cms\static\cms\js" />
       <recent name="C:\Users\N_SATO\Documents\PhpStormProjects\COSMOS Web\htdocs\js" />
       <recent name="C:\Users\N_SATO\Documents\PhpStormProjects\COSMOS Web\htdocs" />
       <recent name="C:\Users\N_SATO\Documents\PhpStormProjects\COSMOS Web\htdocs\Console\css" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.runserver">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="COSMOS Web" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -236,7 +240,8 @@
       <workItem from="1613159684960" duration="93000" />
       <workItem from="1613295044768" duration="4063000" />
       <workItem from="1613301976963" duration="102000" />
-      <workItem from="1613302101224" duration="2343000" />
+      <workItem from="1613302101224" duration="3093000" />
+      <workItem from="1613311170131" duration="637000" />
     </task>
     <task id="LOCAL-00001" summary="MariaDBへの接続の実装">
       <created>1598122794611</created>
@@ -315,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613296489951</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="vemv + .gitignore">
+      <created>1613310320846</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1613310320846</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,7 +371,8 @@
     <MESSAGE value="2.1" />
     <MESSAGE value="2.1.1" />
     <MESSAGE value=".gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value=".gitignore" />
+    <MESSAGE value="vemv + .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="vemv + .gitignore" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
