@@ -8,8 +8,11 @@
     <ul>
         <li>{{ item.time }}</li>
         <li>{{ item.name }}</li>
-        <li>{{ item.zaishitu }}</li>
-        <li>{% if item.zaishitu == 0 %}居ない{% endif %}{% if item.zaishitu == 1 %}居る{% endif %} </li>
+        {% if item.zaishitu == 0 %}
+            <li>居ない</li>
+        {% elif item.zaishitu == 1 %}
+            <li>居る</li>
+        {% endif %}
     </ul>
     {% endfor %}
 </div>
