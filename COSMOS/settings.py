@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'cms.apps.CmsConfig',   # cms アプリケーション
+    'web.apps.CmsConfig',   # web アプリケーション
     'bootstrap4',           # django-bootstrap4
 ]
 

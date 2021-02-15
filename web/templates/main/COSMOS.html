@@ -1,0 +1,50 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COSMOS</title>
+    <link rel="stylesheet" href="{% static 'web/css/COSMOS.css' %}">
+</head>
+<body>
+<div id="wrapper">
+    <!--ローディング画面-->
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+
+    <!--コンテンツ部分-->
+    <div id="header">
+        <h1>COSMOS在室管理システム</h1>
+    </div>
+    <div id="main">
+        <p id="content"></p>
+{#        <div id="table">#}
+{#            <ul>#}
+{#                <li>time</li>#}
+{#                <li>name</li>#}
+{#                <li>zaisitu</li>#}
+{#            </ul>#}
+{#            {% for item in data %}#}
+{#            <ul>#}
+{#                <li>{{ item.time }}</li>#}
+{#                <li>{{ item.name }}</li>#}
+{#                <li>{{ item.zaishitu }}</li>#}
+{#                <li>{% if item.zaishitu == 0 %}居ない{% endif %}{% if item.zaishitu == 1 %}居る{% endif %} </li>#}
+{#            </ul>#}
+{#            {% endfor %}#}
+{#        </div>#}
+
+    </div>
+
+    <div id="footer">
+        <a href="{% url 'admin:index' %}"><p>Login</p></a>
+    </div>
+</div>
+<script type="text/javascript" src="{% static 'web/js/jquery-3.5.1.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'web/js/loading.js' %}"></script>
+<script type="text/javascript" src="{% static 'web/js/Gethtml-Ajax.js' %}"></script>
+<script type="text/javascript" src="{% static 'web/js/COSMOS.js' %}"></script>
+</body>
+</html>

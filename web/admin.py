@@ -1,5 +1,5 @@
 from django.contrib import admin
-from cms.models import Username, Zaishitu
+from web.models import Username, Zaishitu, HtmlOutput
 
 # Register your models here.
 
@@ -16,3 +16,10 @@ class ZaishituAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Zaishitu, ZaishituAdmin)
+
+
+class HtmloutputAdmin(admin.ModelAdmin):
+    list_display = ('time', 'name', 'zaishitu',)
+
+
+admin.site.register(HtmlOutput, HtmloutputAdmin)

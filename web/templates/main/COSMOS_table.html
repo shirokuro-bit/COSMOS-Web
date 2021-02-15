@@ -1,0 +1,15 @@
+<div id="table">
+    <ul>
+        <li>time</li>
+        <li>name</li>
+        <li>zaisitu</li>
+    </ul>
+    {% for item in data %}
+    <ul>
+        <li>{{ item.time }}</li>
+        <li>{{ item.name }}</li>
+        <li>{{ item.zaishitu }}</li>
+        <li>{% if item.zaishitu == 0 %}居ない{% endif %}{% if item.zaishitu == 1 %}居る{% endif %} </li>
+    </ul>
+    {% endfor %}
+</div>

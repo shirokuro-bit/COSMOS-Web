@@ -8,6 +8,16 @@
 from django.db import models
 
 
+class HtmlOutput(models.Model):
+    time = models.DateTimeField(blank=True, null=True, )
+    name = models.CharField(max_length=10, blank=True, primary_key=True,)
+    zaishitu = models.IntegerField(blank=True, null=True)
+
+    class Meta:
+        managed = False  # Created from a view. Don't remove.
+        db_table = 'html_output'
+
+
 class Username(models.Model):
     rfid_id = models.IntegerField(primary_key=True)
     name = models.CharField(max_length=10, blank=True, null=True)

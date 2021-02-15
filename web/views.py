@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from .models import HtmlOutput
 
 
 # Create your views here.
@@ -10,4 +11,12 @@ def index(request):
 
 
 def COSMOS(request):
-    return render(request, 'main/COSMOS.html')
+    return render(request, 'main/COSMOS.html',)
+
+
+def COSMOS_table(request):
+    data = HtmlOutput.objects.all()
+    content = {
+        'data': data
+    }
+    return render(request, 'main/COSMOS_table.html', content)
