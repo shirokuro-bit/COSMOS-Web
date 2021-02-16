@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class CmsConfig(AppConfig):
+class WebConfig(AppConfig):
     name = 'web'
